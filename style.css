@@ -213,7 +213,7 @@ tr:hover td {
   display: flex;
   flex-direction: column;
   margin-bottom: 1.5rem;
-  gap: 30px;
+  gap: 1rem;
 }
 
 label {
@@ -236,7 +236,16 @@ textarea {
   font-family: inherit;
   transition: all 0.3s ease;
 }
-
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 40px;
+  background-image: url("images/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  background-size: 20px 20px;
+}
 input:focus,
 select:focus,
 textarea:focus {
@@ -248,7 +257,7 @@ textarea:focus {
 .checkbox-group {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  /* gap: 1rem; */
   flex-wrap: wrap;
 }
 .checkbox-group .checkboxes {
