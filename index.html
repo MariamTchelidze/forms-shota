@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Future Tech 2025</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="logo">FUTURE TECH</div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#register">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <main>
+        <section id="home" class="hero glass-panel">
+          <h1>The Future Starts Here</h1>
+          <p>
+            Join us on the most important conference of the year. discover the
+            newest techonologies, that makes our lives better & easier.
+          </p>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="number">50+</span>
+              <span class="label">Speakers</span>
+            </div>
+            <div class="stat-item">
+              <span class="number">20</span>
+              <span class="label">Countries</span>
+            </div>
+            <div class="stat-item">
+              <span class="number">3</span>
+              <span class="label">Days</span>
+            </div>
+          </div>
+        </section>
+        <section id="schedule">
+          <h2>Event Schedule</h2>
+          <table>
+            <caption>
+              Day 1 - Introduction & AI
+            </caption>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Topic</th>
+                <th>Speaker</th>
+                <th>Hall 1</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>10:00-11:00</td>
+                <td>Future of AI</td>
+                <td>George Beridze</td>
+                <td>Main Hall</td>
+              </tr>
+              <tr>
+                <td>11:30-13:00</td>
+                <td>Quantum computing</td>
+                <td>Ana Mamulashvili</td>
+                <td>Hall B</td>
+              </tr>
+              <tr>
+                <td>14:00-15:30</td>
+                <td>Cybersecurity 2025</td>
+                <td>David Kapanadze</td>
+                <td>Main Hall</td>
+              </tr>
+              <tr>
+                <td>16:00-17:30</td>
+                <td>Blockchain Technologies</td>
+                <td>Sopho Gelovani</td>
+                <td>Hall C</td>
+              </tr>
+              <tr>
+                <td colspan="4">*The schedule can be changed</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section id="register">
+          <h2>Register Now</h2>
+          <form class="form-group">
+            <div>
+              <label for="name"> Full Name:</label>
+              <input type="text" id="name" required placeholder="your name" />
+            </div>
+            <div>
+              <label for="email" id="email">Email:</label>
+              <input type="email" required placeholder="example@email.com" />
+            </div>
+            <div>
+              <label for="tkttype">Ticket type:</label>
+              <select name="Ticket type" id="tkttype">
+                <option value="choose an option">
+                  Choose a Ticket type for attendance
+                </option>
+                <option value="standard">Standard</option>
+                <option value="VIP">VIP</option>
+              </select>
+            </div>
+            <div class="checkbox-group">
+              <h3 class="interests">Interests:</h3>
+              <div class="checkboxes">
+                <label><input type="checkbox" /> AI & ML</label>
+                <label><input type="checkbox" /> Web Dev</label>
+                <label><input type="checkbox" /> Mobile</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Leave a comment</label>
+              <textarea rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Sign Up</button>
+          </form>
+        </section>
+      </main>
+      <aside>
+        <div class="widget">
+          <h3>News</h3>
+          <ul>
+            <li><span class="time">09:30</span> Registration Started</li>
+            <li><span class="time">10:15</span> New speaker has been added</li>
+            <li><span class="time">09:30</span> The schedule of workshops</li>
+          </ul>
+        </div>
+        <div class="sponsors">
+          <div>
+            <h3>Sponsors</h3>
+          </div>
+          <div class="sponsors-list">
+            <span>TechCorp</span>
+            <span>FutureLabs</span>
+            <span>innovateGe</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+    <footer>
+      <p>&copy; 2025 Future Tech Conference, All Rights Reserved.</p>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">X</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
